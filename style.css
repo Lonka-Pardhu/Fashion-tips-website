@@ -1,0 +1,47 @@
+*{
+    background-color: #1E2538 ;
+    color: white;
+}
+/* images */
+.img1{
+    height: 306px;
+    width:351px;
+    object-fit: cover;
+
+}
+.img2{
+    height: 586px;
+    width: 518px;
+    object-fit: cover;
+    position: relative;
+    left: 50px;
+}
+.img3{
+    height: 240px;
+    width: 261px;
+    object-fit: cover;
+    position:relative;
+    left: 405px;
+    bottom: 150px;
+}
+.img4{
+    height: 469px;
+    width: 581px;
+    object-fit: cover;
+}
+.img6{
+    height: 564px;
+    width: 945px;
+    object-fit: cover;
+}
+.img7{
+    height: 565px;
+    width: 438px;
+    object-fit: cover;
+}
+.img8{
+    height: 546px;
+    width: 435px;
+    object-fit: cover;
+}
+
