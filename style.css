@@ -28,6 +28,9 @@
     height: 469px;
     width: 581px;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
+
 }
 .img6{
     height: 564px;
@@ -45,3 +48,12 @@
     object-fit: cover;
 }
 
+/* sections */
+
+.box-s3{
+    height: 480px;
+    width: 505px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 2;
+}
