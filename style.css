@@ -1,36 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
 *{
     background-color: #1E2538 ;
     color: white;
 }
+
+.page-main-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+.col-1-part-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-1-part-1 h2 {
+    max-width: 351px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* font preference for column-1 of section-1 */
+.column-1 h2, .column-1 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+
+.background{
+    width: 90%;
+    height: 480px;
+    background-color: #986352;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+ 
+
+
 /* images */
 .img1{
     height: 306px;
     width:351px;
     object-fit: cover;
-
 }
 .img2{
     height: 586px;
     width: 518px;
     object-fit: cover;
-    position: relative;
-    left: 50px;
+    /* position: relative;
+    left: 50px; */
 }
 .img3{
     height: 240px;
     width: 261px;
     object-fit: cover;
-    position:relative;
+    /* position:relative;
     left: 405px;
-    bottom: 150px;
+    bottom: 150px; */
 }
 .img4{
     height: 469px;
     width: 581px;
     object-fit: cover;
-    position: relative;
-    z-index: 1;
-
+    /* position: relative;
+    z-index: 1; */
 }
 .img6{
     height: 564px;
@@ -41,19 +82,18 @@
     height: 565px;
     width: 438px;
     object-fit: cover;
+    /* position: relative;
+    top: 70px; */
 }
 .img8{
     height: 546px;
     width: 435px;
     object-fit: cover;
+    /* position: relative;
+    bottom: 80px;
+    left: 60px; */
 }
 
 /* sections */
 
-.box-s3{
-    height: 480px;
-    width: 505px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: 2;
-}
+
