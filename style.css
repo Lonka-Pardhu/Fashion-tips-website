@@ -9,7 +9,7 @@ body{
     font-weight: 100;
 }
 /* font stylings section-1*/
-.col-1-part-1 h2, .col-2-part-1 h3{
+.row-1-part-1 h2, .row-2-part-1 h3{
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     font-weight: 100;
@@ -28,19 +28,20 @@ body{
 }
 /* section-1 */
 .section-1 {
+    align-items: center;
     position: absolute;
     top: 150px;
     left: 190px;
     z-index: 3;
 }
-.column-1{
+.row-1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 } 
-.column-2{
+.row-2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,33 +49,33 @@ body{
     margin-top: 20px;
 }
     
-.col-1-part-1 h2 {
+.row-1-part-1 h2 {
     max-width: 351px;
 }
 
-.col-2-part-1 h3{
+.row-2-part-1 h3{
     margin:0;
 }
 
-.col-2-part-1 ol{
+.row-2-part-1 ol{
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     padding-left: 20px;
     margin-top: 0;
 }
 
-.col-2-part-2{
+.row-2-part-2{
     display: flex;   
     position: relative;
     left: 50px;
 }
 
-.col-2-part-2 {
+.row-2-part-2 {
     width: 550px;
     margin: 0 15px 0 15px;
     
 }
-.col-2-part-2 p{
+.row-2-part-2 p{
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7rem;
@@ -150,10 +151,8 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 20rem;
+    margin-bottom:150px;
 }
-.sec-3-part-2{
-    margin-right: 40px;
-} 
 .sec-3-bg{
     width: 500px;
     height: 705px;
@@ -204,7 +203,9 @@ body{
     text-align: center;
     margin: 0;
 }
-
+.sec-3-part-2{
+    margin-right: 40px;
+} 
 .sec-3-part-2 h3{
     font-family: 'Playfair Display', serif;
     font-size: 2.25rem;
@@ -223,8 +224,28 @@ body{
     padding-left: 20px;
 }
 
+/* end of section-3 */
 
+/* section-4 */
+.icon-boxes{
+    display:grid;
+    grid-row-gap: 20px;
+}
+.icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
+    height: 60px;
+}
 
+.icon-box1, .icon-box2, .icon-box3, .icon-box4{
+    border: 1px solid #4F597A;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+    font-size: 16px;
+    width: 14rem;
+    padding: 25px 10px;
+    text-align: center;
+    justify-content:center;
+}
 
 /* images */
 .img1{
