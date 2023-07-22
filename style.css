@@ -88,6 +88,7 @@ body{
 /* end of section-1 */
 
 /* section-2 */
+
 .section-2{
     margin-top: 30rem;
     margin-bottom: 15rem;
@@ -231,9 +232,11 @@ body{
 /* end of section-3 */
 
 /* section-4 */
+
 .section-4{
     display: flex;
     width: 100%;
+    margin-bottom: 20rem;
 }
 .icon-boxes{
     z-index: 3;
@@ -242,7 +245,6 @@ body{
     background-color: #1E2538;
     width: 570px;
     height: 580px;
-    /* width: calc(86% - 520px); */
 }
 .icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
     height: 60px;
@@ -296,9 +298,48 @@ body{
     text-align: center;
 }
 
+/* end of section-4 */
 
+/* section-5 */
 
+.section-5{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 220px;
+    margin-bottom: 10rem;
+}
+.section-5 h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.section-5 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    padding: 0px 35px;
+    position: relative;
+    bottom: 25px;
+}
 
+.sec-5-wrap{
+    display: flex;
+    flex-direction: row;
+}
+.sec-5-clr-tag{
+    height: 4px;
+    width: 510px;
+    background-color:#986352;
+}
+
+/* end of section-5 */
+
+/* section-6 */
+.sec-6-bg{
+    width: 850px;
+    height: 500px;
+    background-color: #986352;
+}
 
 
 
@@ -368,4 +409,3 @@ body{
     bottom: 80px;
     left: 60px; */
 }
-
