@@ -2,6 +2,8 @@
 body{
     background-color: #1E2538 ;
     color: white;
+    overflow-x: hidden;
+
 }
 
 .page-main-title{
@@ -151,9 +153,11 @@ body{
     flex-direction: row;
     align-items: center;
     gap: 20rem;
-    margin-bottom: 200px;
+    margin-bottom: 12rem;
 }
 .sec-3-bg{
+    /* position: relative;
+    right: 5px; */
     width: 500px;
     height: 705px;
     background-color: #986352;
@@ -227,9 +231,18 @@ body{
 /* end of section-3 */
 
 /* section-4 */
+.section-4{
+    display: flex;
+    width: 100%;
+}
 .icon-boxes{
-    display:grid;
-    grid-row-gap: 20px;
+    z-index: 3;
+    left: 45px;
+    position: relative;
+    background-color: #1E2538;
+    width: 570px;
+    height: 580px;
+    /* width: calc(86% - 520px); */
 }
 .icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
     height: 60px;
@@ -245,7 +258,56 @@ body{
     padding: 25px 10px;
     text-align: center;
     justify-content:center;
+    margin: 15px;
 }
+.icon-boxes-wrap-1{
+    display: flex;
+    margin-top: 25px;
+}
+.icon-boxes-wrap-2{
+    display: flex;
+    margin-bottom: 25px;
+}
+.sec-4-bg{
+    position: relative;
+    left: 235px;
+    width: 500px;
+    height: 705px;
+    background-color: #986352;
+    z-index: 1;
+}
+.sec-4-bg{
+    display: flex;
+    flex-direction: row;
+}
+.sec-4-bg span{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;   
+    font-weight: 400;
+    position: relative;
+    right: 220px;
+    top: 100px;
+}
+.sec-4-vertical-title{
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* images */
 .img1{
@@ -277,6 +339,15 @@ body{
     bottom: 110px;
     z-index: 3;
 }
+.img5{
+    position: relative;
+    right: 250px;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+    transform: scale(1.2);
+}
 .img6{
     height: 564px;
     width: 945px;
@@ -297,3 +368,4 @@ body{
     bottom: 80px;
     left: 60px; */
 }
+
