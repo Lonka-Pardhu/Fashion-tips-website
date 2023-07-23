@@ -3,7 +3,6 @@ body{
     background-color: #1E2538 ;
     color: white;
     overflow-x: hidden;
-
 }
 
 .page-main-title{
@@ -43,7 +42,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-} 
+}
 .row-2{
     display: flex;
     flex-direction: row;
@@ -51,7 +50,7 @@ body{
     align-items: center;
     margin-top: 20px;
 }
-    
+
 .row-1-part-1 h2 {
     max-width: 351px;
 }
@@ -98,6 +97,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align:center;	
+    position: relative;
 }
 .section-2-data h3{
     font-size: 2.25rem;
@@ -110,41 +110,45 @@ body{
     line-height: 30px;
 }
 .section-2-data {
-    border: 4px solid #986352;
-    display: inline-block;
     margin: 25px auto;
     padding: 40px 30px;
     position: relative;
-    width: 770px;
+    width: 770px; 
+    /* position: absolute; */
 }
-/* .section-2-data p, .section-2-data h3 {
-  position: relative;
-  display: block;
-  z-index: 5;
+.corners-holder{
+    height: 350px;
+    width: 850px;
+    position: absolute;
 }
-.section-2-data::before,
-.section-2-data::after {
-  content: '';
-  position: absolute;
-  background: #1E2538;
+.corner-angle{
+    height: 50px;
+    width:55px;
+    position: absolute;
+    border: 4px solid #996252;
 }
-
-.section-2-corner::before {
-  width: calc(100% + 50px + 4px - 120px);
-  height: calc(100% + 4px);
-  top: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+.corner-angle.left{
+    border-right: none;
+    border-bottom: none;
+    left: 0;
 }
-.section-2-corner::after {
-  height: calc(100% + 50px + 4px - 120px);
-  width: calc(100% + 4px);
-  left: -2px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-}  */
+.corner-angle.right{
+    border-left:none;
+    border-bottom: none;
+    right:0;
+}
+.corner-angle.bottom-left{
+    border-top: none;
+    border-right: none;
+    left:0;
+    bottom: 0;
+}
+.corner-angle.bottom-right{
+    border-top: none;
+    border-left: none;
+    bottom: 0;
+    right:0;
+}
 
 /* end of section-2 */
 
@@ -466,4 +470,8 @@ body{
 
 .test{
     margin-top: 400px;
+}
+
+.test1{
+    float: left;
 }
