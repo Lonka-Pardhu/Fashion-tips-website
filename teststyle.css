@@ -340,6 +340,9 @@ body{
 /* end of section-5 */
 
 /* section-6 */
+.section-6{
+    margin-bottom: 40rem;
+}
 .sec-6-bg{
     width: 850px;
     height: 500px;
@@ -422,8 +425,40 @@ body{
     margin: 0;
 }
 
+/* end of section-6 */
+ 
+/* section-7 */
+ 
+/* figure-out how to clear the empty spaces after moving the elements from their places using relative */
+/* responsive to mobile */
+/* remove hr tag */
+/* remove display flexes */
 
 
+.sec-7-bg{
+    background-color: #986352;
+    height: 530px;
+    width: 420px;
+    position: relative;
+    left: 210px;
+    bottom: 470px;
+    z-index: 2;
+}
+.section-7 h1{
+    font-family: 'Playfair Display', serif;
+    font-size:3rem;
+    font-weight: 400;
+    position: relative;
+    left: 120px;
+}
+.section-7 p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    width: 420px;
+    position: relative;
+    left: 700px;
+    bottom: 1200px;
+}
 
 
 
@@ -483,22 +518,15 @@ body{
     height: 565px;
     width: 438px;
     object-fit: cover;
-    /* position: relative;
-    top: 70px; */
+    position: relative;
+    z-index: 3;
+    left: 120px;
 }
 .img8{
     height: 546px;
     width: 435px;
     object-fit: cover;
-    /* position: relative;
-    bottom: 80px;
-    left: 60px; */
-}
-
-.test{
-    margin-top: 400px;
-}
-
-.test1{
-    float: left;
+    position: relative;
+    bottom: 1350px;
+    left: 700px;
 }
