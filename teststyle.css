@@ -435,31 +435,46 @@ body{
 /* remove display flexes */
             
 
-.sec-7-bg{
-    background-color: #986352;
-    height: 530px;
-    width: 420px;
+
+.sec-7-wrap1{
+    display: inline-block;
+    width: 56%;
     position: relative;
-    left: 210px;
-    bottom: 470px;
-    z-index: 2;
+    left: 100px;
+    top: 20px;
 }
+
 .section-7 h1{
     font-family: 'Playfair Display', serif;
     font-size:3rem;
     font-weight: 400;
-    position: relative;
-    left: 120px;
+    margin-bottom: 90px;
 }
+
 .section-7 p{
     font-family: 'Open Sans', sans-serif;
     line-height: 1.8;
     width: 420px;
-    position: relative;
-    left: 700px;
-    bottom: 1200px;
+    margin-top: 80px;
 }
 
+.sec-7-wrap2{
+    display: inline-block;
+    width: 43%;
+    vertical-align: top;
+}
+
+.img-bg-wrapper{
+    position: relative;
+}
+
+.sec-7-bg{
+    background-color: #986352;
+    height: 530px;
+    width: 420px;
+    position: absolute;
+    margin: 100px 0 0 80px;
+}
 
 
 
@@ -518,15 +533,10 @@ body{
     height: 565px;
     width: 438px;
     object-fit: cover;
-    position: relative;
-    z-index: 3;
-    left: 120px;
+    position:relative;
 }
 .img8{
     height: 546px;
     width: 435px;
     object-fit: cover;
-    position: relative;
-    bottom: 1350px;
-    left: 700px;
 }
