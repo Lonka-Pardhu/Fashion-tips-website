@@ -262,8 +262,8 @@ header {
     left: 45px;
     position: relative;
     background-color: #1E2538;
-    width: 530px;
-    height: 630px;
+    width: 590px;
+    height: 580px;
 }
 .icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
     height: 60px;
@@ -275,7 +275,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7rem;
     font-size: 16px;
-    width: 14rem;
+    width: 16rem;
     padding: 25px 10px;
     text-align: center;
     justify-content:center;
