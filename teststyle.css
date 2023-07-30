@@ -5,10 +5,24 @@ body{
     overflow-x: hidden;
 }
 
-.page-main-title{
-    font-family: 'Playfair Display', serif;
-    font-weight: 100;
+* {
+    box-sizing: border-box;
 }
+
+header {
+    margin-bottom: 50px;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    padding: 0; 
+}
+
+.page-main-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin: 0 0 5px 50px; 
+    padding: 10px 0; 
+    font-size: 1.875rem;
+}
+
 /* font stylings section-1*/
 .row-1-part-1 h2, .row-2-part-1 h3{
     font-family: 'Playfair Display', serif;
@@ -248,8 +262,8 @@ body{
     left: 45px;
     position: relative;
     background-color: #1E2538;
-    width: 570px;
-    height: 580px;
+    width: 530px;
+    height: 630px;
 }
 .icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
     height: 60px;
@@ -434,7 +448,9 @@ body{
 /* remove hr tag */
 /* remove display flexes */
             
-
+.section-7{
+    margin-bottom: 10rem;
+}
 
 .sec-7-wrap1{
     display: inline-block;
@@ -476,9 +492,35 @@ body{
     margin: 100px 0 0 80px;
 }
 
+/* footer */
+.ftr-common > h6{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0 20px 0;
+}
+.ftr-common > p{
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.ftr-common{
+    margin: 0 140px 0 140px;
+    display: inline-block;
+}
 
-
-
+/* final edge */
+.horizontal-line {
+    width: 1100px;
+    height: 1px; 
+    background-color:#575A6B;
+    margin: 30px 0px 30px 90px;
+  }
+.final-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    position: relative;
+    left: 50%;
+}
 
 /* images */
 .img1{
