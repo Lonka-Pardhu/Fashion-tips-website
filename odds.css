@@ -41,70 +41,61 @@ header {
     position: relative;
     z-index: 2;
 }
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+}
 
 /* section-1 */
 .section-1 {
-    /* align-items: center;
-    position: absolute;
-    top: 150px;
-    left: 190px;
-    z-index: 3; */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.row-1{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px; */
-}
-.row-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-}
-.row-1-part-1{
-    display: inline-block;
-}
-.row-1-part-2{
+
+.sec-1-common{
     display: inline-block;
 }
 .row-1-part-1 h2 {
     max-width: 351px;
 }
-
-.row-2-part-1 h3{
+.row-2-part-1 > h3{
     margin:0;
 }
-
-.row-2-part-1 ol{
+.row-2-part-1 > ol{
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     padding-left: 20px;
     margin-top: 0;
 }
 
-.row-2-part-2{
-    display: flex;   
-    position: relative;
-    left: 50px;
+.row-2-part-2 > .para{
+ vertical-align:top;
+ width: 259px;
+ display:inline-block;
+ font-style: italic;
+ font-family: 'Open Sans', sans-serif;
+ line-height: 1.7rem;
+ font-size: 16px;
+ margin-left:20px;
+}
+.row-2-part-2 > .img-container {
+ width: 239px; 
+ height: 259px;
+ overflow: hidden;
+ position: relative;
+ display:inline-block;
 }
 
-.row-2-part-2 {
-    width: 550px;
-    margin: 0 15px 0 15px;
-    
+.img3 {
+ width: auto;
+ height: 100%;
+ object-fit: cover;
 }
-.row-2-part-2 p{
-    font-style: italic;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.7rem;
-    font-size: 16px;
-    width: 240px;
-    margin-left: 15px;
-}
-/* end of section-1 */
+
+
 
 
 
@@ -144,17 +135,12 @@ header {
     height: 508px;
     width: 518px;
     object-fit: cover;
-    /* position: relative;
-    left: 50px; */
 }
-.img3{
-    height: 240px;
-    width: 261px;
+.img3 {
+    width: auto;
+    height: 100%;
     object-fit: cover;
-    /* position:relative;
-    left: 405px;
-    bottom: 150px; */
-}
+   }
 .img4{
     height: 469px;
     width: 581px;
