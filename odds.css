@@ -74,7 +74,7 @@ main{
 
 .row-2{
     position: relative;
-    top: 30px;
+    top: 60px;
     left: 110px;
 }
 
@@ -94,6 +94,10 @@ main{
     margin-top: 30px;
 }
 
+.row-2-part-2{
+    top: 20px;
+    left: 115px;
+}
 
 .row-2-part-2 > .img-container {
     width: 239px; 
