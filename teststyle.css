@@ -188,9 +188,9 @@ main{
 
 /* section-3 */
 
-.section-3{
-    display: flex;
-    flex-direction: row;
+ .section-3{
+    /* display: flex;
+    flex-direction: row; */
     align-items: center;
     gap: 20rem;
     margin-bottom: 12rem;
@@ -207,9 +207,9 @@ main{
     width: 480px;
     height: 450px;
     background-color: white;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center; 
     z-index: 4;
     position: relative;
@@ -273,7 +273,7 @@ main{
 /* section-4 */
 
 .section-4{
-    display: flex;
+    /* display: flex; */
     width: 100%;
     margin-bottom: 20rem;
 }
@@ -302,11 +302,11 @@ main{
     margin: 15px;
 }
 .icon-boxes-wrap-1{
-    display: flex;
+    /* display: flex; */
     margin-top: 25px;
 }
 .icon-boxes-wrap-2{
-    display: flex;
+    /* display: flex; */
     margin-bottom: 25px;
 }
 .sec-4-bg{
@@ -318,8 +318,8 @@ main{
     z-index: 1;
 }
 .sec-4-bg{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 .sec-4-bg span{
     font-family: 'Playfair Display', serif;
@@ -332,8 +332,8 @@ main{
 .sec-4-vertical-title{
     position: relative;
     left: 100px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     text-align: center;
 }
 
@@ -342,8 +342,8 @@ main{
 /* section-5 */
 
 .section-5{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0px 220px;
     margin-bottom: 10rem;
 }
@@ -362,8 +362,8 @@ main{
 }
 
 .sec-5-wrap{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 .sec-5-clr-tag{
     height: 4px;
@@ -384,8 +384,8 @@ main{
 }
 
 .sec-6-box-1 {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     width: 380px;
     height: 380px;
     background-color: #1e2538;
@@ -395,8 +395,8 @@ main{
     bottom: 60px;
 }
 .sec-6-box-1-content {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     text-align: center;
     border: 1px solid #986352;
     height: 320px;
@@ -414,9 +414,9 @@ main{
     width: 480px;
     height: 450px;
     background-color: white;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; */
     text-align: center; 
     z-index: 2;
     position: relative;
@@ -425,10 +425,10 @@ main{
 }
 .sec-6-box-2-content{
     height: 400px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
     margin: 0 25px 0 25px;
     border: 1px solid #986352;
@@ -463,9 +463,7 @@ main{
  
 /* section-7 */
  
-/* figure-out how to clear the empty spaces after moving the elements from their places using relative */
 /* responsive to mobile */  
-/* remove hr tag */
 /* remove display flexes */
             
 .section-7{
