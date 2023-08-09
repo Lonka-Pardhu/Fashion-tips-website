@@ -278,33 +278,36 @@ main{
 /* section-4 */
 
 .section-4{
-    /* display: flex; */
-    width: 100%;
     margin-bottom: 20rem;
 }
-.icon-boxes{
-    z-index: 3;
-    left: 45px;
-    position: relative;
-    background-color: #1E2538;
-    width: 590px;
-    height: 580px;
+.icon-boxes-wrap{
+    position: relative; 
+    width: 595px;
+    height: 570px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 rgba(31,36,56,1);
+
 }
-.icon-box1 svg,.icon-box2 svg,.icon-box3 svg,.icon-box4 svg{
+.inner-wrap{
+    position: absolute;
+    top:20px;
+}
+.icon-common > svg{
     height: 60px;
 }
 
-.icon-box1, .icon-box2, .icon-box3, .icon-box4{
+.icon-common{
     border: 1px solid #4F597A;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7rem;
     font-size: 16px;
-    width: 16rem;
+    width: 15rem;
     padding: 25px 10px;
     text-align: center;
     justify-content:center;
     margin: 15px;
+    display:inline-block;
 }
 
 .sec-4-bg{
