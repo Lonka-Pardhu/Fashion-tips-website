@@ -25,11 +25,11 @@ header {
     font-size: 1.875rem;
 }
 main{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%; */
+    width: 100%;
 }
 
 /* section-1 */
@@ -316,7 +316,9 @@ main{
 .sec-4-bg{
     position: relative;
     top: 120px;
-    float: right;
+    /* float: right; */
+    display: inline-block;
+    width: 53%;
     width: 500px;
     height: 643px;
     background-color: #986352;
@@ -340,33 +342,34 @@ main{
 /* section-5 */
 
 .section-5{
-    /* display: flex;
-    flex-direction: column; */
+    /* changes has to be done ( giving width to whole section and margin 0 auto) */
     margin: 0px 220px;
     margin-bottom: 10rem;
+}
+.sec-5-common{
+    display: inline-block;
 }
 .section-5 h3{
     font-family: 'Playfair Display', serif;
     font-size: 1.875rem;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 .section-5 p{
     font-family: 'Open Sans', sans-serif;
+    width: 645px;
     font-size: 1rem;
-    line-height: 1.9rem;
+    line-height: 1.8;
     padding: 0px 35px;
-    position: relative;
-    bottom: 25px;
+    margin: 0 0 0 40px;
 }
 
-.sec-5-wrap{
-    /* display: flex;
-    flex-direction: row; */
-}
 .sec-5-clr-tag{
     height: 4px;
-    width: 510px;
+    width: 150px;
     background-color:#986352;
+    vertical-align: top;
+    margin-top: 10px;
 }
 
 /* end of section-5 */
