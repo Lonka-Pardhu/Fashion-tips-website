@@ -24,6 +24,7 @@ header {
     padding: 10px 0; 
     font-size: 1.875rem;
 }
+
 /* main{
     display: flex;
     flex-direction: column;
@@ -34,28 +35,32 @@ header {
 
 /* section-1 */
 .hero-background {
-    width: 1140px;
-    height: 480px;
-    background-color: #986352;
     position: relative;
 }
-
+.main-bg-holder{
+    height: 900px;  
+}
+.main-bg{
+    background-color: #986352;
+    height: 480px;  
+}
 .section-1 {
     position: absolute;
+    top: 0;
 }
 
 .sec-1-common{
     display: inline-block;
     position: relative;
+    vertical-align: top;
 }
 
 .row-1{
     position: relative;
-    left: 110px;
 }
 .row-1-part-1{
     top: 55px;
-    margin-right: 25px;
+    margin-right: 25px; 
 }
 .row-1-part-1 > h2{
     font-family: 'Playfair Display', serif;
@@ -126,7 +131,6 @@ header {
 /* section-2 */
 
 .section-2{
-    margin-top: 35rem;
     position: relative;
     margin-bottom: 20rem;
 }
@@ -598,4 +602,63 @@ header {
     height: 546px;
     width: 435px;
     object-fit: cover;
+}
+
+
+
+.container {
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width: 767px) {
+    .hero-background{
+        height: 1024px;
+        padding: 25px;
+    }
+    .container {
+        width: 600px;
+    }
+    .img1{
+        display:none;
+    }
+    .row-1-part-1{
+        display: block;
+    }
+    .row-1-part-2{
+        width: 550px;
+    }
+
+}
+
+/* @media screen and (min-width: 1024px) {
+    .container {
+        width: 960px;
+    }
+} */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+    .hero-background{
+        width: 100%;
+        height:900px;
+        padding: 0px;
+    }
+    .row-1{
+        position: relative;
+        left: 0px;;
+    }
+    .row-1-part-1{
+        margin-left: 30px;
+        display: inline-block;
+    }   
+    .row-2{
+        left: 0px;
+        margin-left: 30px;
+    }
+    .img1{
+        display:block;
+    }
 }
