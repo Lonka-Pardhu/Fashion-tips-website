@@ -352,7 +352,6 @@ header {
 
 .section-5{
     /* changes has to be done ( giving width to whole section and margin 0 auto) */
-    margin: 0px 220px;
     margin-bottom: 10rem;
 }
 .sec-5-common{
@@ -467,7 +466,6 @@ header {
 /* section-7 */
  
 /* responsive to mobile */  
-/* remove display flexes */
             
 .section-7{
     width:1280px;
@@ -541,7 +539,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.875rem;
     position: relative;
-    /* left: 50%; */
+    text-align: center;
 }
 
 /* images */
