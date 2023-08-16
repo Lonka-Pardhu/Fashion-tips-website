@@ -190,20 +190,27 @@ header {
 /* section-3 */
 
 .section-3{
-    width: 1280px;
-    margin-bottom: 15rem;
-}
+    margin-top: 150px;
+    margin-bottom: 5rem;
+}   
 
 .sec-3-part-1{
     display: inline-block;
     width: 65%;
 }
 
-.sec-3-bg{
+.sec-3-bg-holder{
+    position: absolute;
+    left: 0;
     width: 500px;
     height: 705px;
+}
+
+.sec-3-bg{
+    height: 100%;
     background-color: #986352;
 }
+
 .sec-3-white-box{
     width: 500px;
     height: 480px;
@@ -285,7 +292,6 @@ header {
 /* section-4 */
 
 .section-4{
-    width: 1280px;
     margin-bottom: 20rem;
 }
 .sec-4-part-1{
@@ -467,7 +473,6 @@ header {
 /* section-7 */
             
 .section-7{
-    width:1280px;
     margin-bottom: 10rem;
 }
 
@@ -664,6 +669,21 @@ header {
     }
     .section-2-content > p{
         margin: 10px 95px;
+    }
+    .img4{
+        left: 65px;
+        width: 530px;
+        height: 435px;
+    }
+    .sec-3-part-1{
+        width: 72%;
+    }
+    .sec-3-part-2{
+        width: 27%;
+    }
+    .s3-p2-wrap{
+        height: auto;
+        width: auto;
     }
 }
 
