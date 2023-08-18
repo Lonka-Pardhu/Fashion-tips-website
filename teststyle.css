@@ -290,18 +290,18 @@ header {
 
 /* section-4 */
 
-.section-4{
-    margin-bottom: 20rem;
+ .section-4{
+    margin-top: 60px;
+    margin-bottom: 280px;
 }
 .sec-4-part-1{
     display: inline-block;
-    width: 60%;
-    height: 570px;
+    position: relative;
+    bottom: 50px;
 }
 .icon-boxes-wrap{
     z-index: 5;
     position: relative;
-    left: 40px;
     display: inline-block;
     width: 595px;
     height: 570px;
@@ -330,13 +330,20 @@ header {
     display:inline-block;
 }
 
-.sec-4-part-2{
-    position: relative;
-    top: 120px;
-    display: inline-block;
+.sec-4-bg-holder{
     width: 500px;
     height: 643px;
+    position:absolute;
+    right: 0;
+    display: inline-block;
+}
+.sec-4-bg{
+    height: 100%;
     background-color: #986352;
+}
+.sec-4-part-2{
+    position: absolute; 
+    display: inline-block;
 }
 
 .sec-4-vertical-title > span{
@@ -348,8 +355,9 @@ header {
 }
 .sec-4-vertical-title {
     position: absolute;
-    right: 0;
-    margin: 140px 70px 10px 0px;
+    top: 20px;
+    right: 55px;
+    margin: 90px 50px 10px 0px;
     text-align: center;
 }
 /* end of section-4 */
@@ -575,9 +583,10 @@ header {
     object-fit: cover;
     z-index: 2;
     transform: scale(1.2);
-    position: absolute;
-    right: 229px;
-    bottom: 130px;
+    position: relative;
+    display: inline-block;
+    right: 220px;
+    bottom: 115px;
     box-shadow: 0 0 22px 0 rgba(31,36,56,0.5);
 } 
 .img6{
@@ -605,10 +614,9 @@ header {
 
 
 .container {
-    margin: 0 auto; 
-    background-color: indianred;
+    margin: 0 auto;
+    /* background-color: indianred; */
     overflow: hidden;
-
 }
 
 @media screen and (min-width: 767px) {
@@ -684,6 +692,7 @@ header {
         height: auto;
         width: auto;
     }
+    
 }
 
 @media screen and (min-width: 1200px) {
