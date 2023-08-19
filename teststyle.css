@@ -366,7 +366,10 @@ header {
 
 .section-5{
     /* changes has to be done ( giving width to whole section and margin 0 auto) */
-    margin-bottom: 10rem;
+    margin-bottom: 150px;
+}
+.sec-5-wrap{
+    margin: 0 auto;
 }
 .sec-5-common{
     display: inline-block;
@@ -398,14 +401,20 @@ header {
 
 /* section-6 */
 .section-6{
-    margin-bottom: 40rem;
-}
-.sec-6-bg{
-    width: 850px;
-    height: 500px;
-    background-color: #986352;
+    margin-bottom: 100px;
 }
 
+.sec-6-bg-holder{
+    position: absolute;
+    left: 0;
+    width: 850px;
+    height: 580px;
+}
+
+.sec-6-bg{
+    height: 100%;
+    background-color: #986352;
+}
 .sec-6-box-1 {
     width: 380px;
     height: 380px;
@@ -414,6 +423,7 @@ header {
     position: relative;
     left: 100px;
     bottom: 40px;
+    display: inline-block;
 }
 .sec-6-box-1-content {
     border: 1px solid #986352;
@@ -437,8 +447,7 @@ header {
     text-align: center; 
     z-index: 3;
     position: relative;
-    left: 710px;
-    bottom: 600px;
+    float: right;
 }
 .sec-6-box-2-content{
     border: 1px solid #986352;
@@ -672,7 +681,7 @@ header {
     .section-2{
         position: relative;
         margin-top: 60px;
-        margin-bottom: 200px; 
+        margin-bottom: 200px;
     }
     .section-2-content > p{
         margin: 10px 95px;
@@ -692,7 +701,46 @@ header {
         height: auto;
         width: auto;
     }
-    
+    .sec-4-bg-holder{
+        position:absolute;
+    }
+    .sec-5-wrap{
+        width: 840px;
+    }
+    .sec-6-bg-holder{
+        width: 735px;
+        height: 500px;
+    }
+    .img6{
+        width: 800px;
+        height: 500px;
+        top: 50px;
+        left: 0;
+    }
+    .sec-6-box-1{
+        left: 20px;
+        bottom: 130px;
+        width: 350px;
+        height: 350px;
+    }
+    .sec-6-box-1-content{
+        width: 300px;
+        height: 300px;
+        margin: 25px 0px 0px 25px;
+    }
+    .sec-6-box-1-content > p{
+        margin: 60px 15px;
+    }
+    .sec-6-box-2{
+        width: 430px;
+        height: 445px;
+        bottom: 300px;
+    }
+    .sec-6-box-2-content{
+        height: 395px;
+        width: 380px;
+        padding: 15px 15px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -721,5 +769,12 @@ header {
     }
     .section-2-content > p{
         margin: 10px 150px;
+    }
+    .sec-5-wrap{
+        width: 950px;
+    }
+    .sec-6-bg-holder{
+        width: 850px;
+        height: 580px;
     }
 }
