@@ -489,15 +489,12 @@ header {
 /* section-7 */
             
 .section-7{
-    margin-bottom: 10rem;
+    margin-bottom: 100px;
 }
 
 .sec-7-wrap1{
     display: inline-block;
-    width: 56%;
     position: relative;
-    left: 100px;
-    top: 20px;
 }
 
 .section-7 h1{
@@ -515,8 +512,7 @@ header {
 }
 
 .sec-7-wrap2{
-    display: inline-block;
-    width: 43%;
+    float: right;
     vertical-align: top;
 }
 
@@ -552,13 +548,14 @@ header {
 .horizontal-line {
     height: 1px; 
     background-color:#575A6B;
-    margin: 30px 0px 30px 90px;
-  }
+    margin: 0 auto;
+    width: 90%;
+}
 .final-text{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.875rem;
-    position: relative;
     text-align: center;
+    margin: 20px 0px;
 }
 
 /* images */
@@ -664,9 +661,13 @@ header {
         display: inline-block;
         margin-left: 30px;
     }
+    .row-1-part-1 > h2{
+        max-width: 295px;
+    }
     .row-1-part-2{
         width: 467px;
         height: 485px;
+        margin-top: 40px;
     }
     .row-2{
         left: 0px;
@@ -741,6 +742,26 @@ header {
         width: 380px;
         padding: 15px 15px;
     }
+    .sec-7-bg{
+        width: 360px;
+        height: 480px;
+        margin: 80px 0px 0px 80px;
+    }
+    .section-7 p{
+        width: 360px;
+    }
+    .img7{
+        height: 500px;
+        width: 375px;
+    }
+    .img8{
+        height:500px;
+        width: 360px;
+    }
+    .ftr-common{
+        margin: 0px 90px 20px 90px;
+    }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -754,15 +775,39 @@ header {
     }
     .row-1{
         position: relative;
-        left: 0px;;
+        left: 0px;
+        margin-top: 30px;
     }
     .row-1-part-1{
-        margin-left: 30px;
+        margin-left: 50px;
         display: inline-block;
-    }   
+    }
+    .img1{
+        height: 330px;
+        width: 335px;
+    }
+    .row-1-part-1 > h2{
+        max-width: 351px;
+    }
+    .row-1-part-2{
+        width: 540px;
+        height: 510px;
+        margin-top: 0px;
+    }
     .row-2{
         left: 0px;
-        margin-left: 30px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .row-2-part-1{
+        margin-top: 15px;
+        margin-right: 120px;
+    }
+    .row-2-part-2{
+        left: 0;
+    }
+    .row-2-part-2 > .para{
+        width: 225px;
     }
     .img1{
         display:block;
