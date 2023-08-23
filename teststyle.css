@@ -621,7 +621,7 @@ header {
 
 .container {
     margin: 0 auto;
-    background-color: #425974d1;
+    /* background-color: #425974d1; */
     overflow: hidden;
 }
 
@@ -655,7 +655,7 @@ header {
     .row-2-part-1-h3{
         display: none;
     }
-    .row-2-part-1 > h3{
+    .row-2-part-1-spl-h3{
         width: 495px;
     }
     .row-2-part-2{
@@ -671,6 +671,53 @@ header {
     .row-2-part-2 > .para{
         margin: 40px 0 0 0;
         width: 500px;
+    }
+    .sec-2-borders-holder{
+        height: 400px;
+        width: 550px;
+    }
+    .corner-bdr{
+        height: 40px;
+        width: 40px;
+    }
+    .section-2-content{
+        margin: 5px 62px 0 62px;
+        top: 5px;
+    }
+    .sec-3-part-1{
+        width: 100%;
+    }
+    .img4{
+        height: 340px;
+        width: 465px;
+        left: 50px;
+    }
+
+    .sec-3-white-box {
+        width: 400px;
+        height: 450px;
+        bottom: 180px;
+        left: 85px;
+    }
+    .white-box-content {
+        padding: 0;
+        height: 400px;
+        width: 350px;
+    }
+    .white-box-content > h2 {
+        font-size: 1.875rem;
+    }
+    .white-box-content > p{
+        margin: 45px;
+        width: 265px;
+
+    }
+    .sec-3-part-2{
+        width: 90%;
+        margin: 0 30px 200px 30px;
+    }
+    .s3-p2-wrap{
+        width: 100%;
     }
 }
 
@@ -696,7 +743,7 @@ header {
     .row-1-part-2{
         width: 467px;
         height: 485px;
-        margin-top: 40px;
+        margin: 40px 0 0 0;
     }
     .row-2{
         left: 0px;
@@ -711,27 +758,72 @@ header {
     .row-2-part-1-spl-h3{
         display: none;
     }
+    .row-2-part-2{
+        left:115px;
+    }
+    .row-2-part-2 > .img-container{
+        width: 239px;
+        display: inline-block;
+    }
+    .img3{
+        width: auto;
+    }
     .row-2-part-2 > .para{
         width: 215px;
+        margin: 0 0 0 15px;
     }
     .section-2{
         position: relative;
         margin-top: 60px;
         margin-bottom: 200px;
     }
-    .section-2-content > p{
-        margin: 10px 95px;
+    .sec-2-borders-holder{
+        height: 350px;
+        width: 850px;
     }
-    .img4{
+    .corner-bdr{
+        height: 50px;
+        width: 55px;
+    }
+    .section-2-content{
+        margin: 30px 62px 0 62px;
+    }
+    .section-2-content > p{
+        margin: 10px 80px;
+    }
+    .img4 {
         left: 65px;
-        width: 530px;
-        height: 435px;
+        width: 510px;
+        height: 400px;
+    }
+    .sec-3-bg-holder{
+        width: 425px;
+        height: 680px;
     }
     .sec-3-part-1{
-        width: 72%;
+        width: 66%; 
+    }
+    .sec-3-white-box{
+        height: 460px;
+        width: 450px;
+        bottom: 325px;
+        left: 25px;
+    }
+    .white-box-content{
+        width: 400px;
+        height: 410px;
+        padding: 0;
+    }
+    .white-box-content > h2{
+        font-size: 2.25rem;
+    }
+    .white-box-content > p {
+        margin: 50px;
+        width: 295px;
     }
     .sec-3-part-2{
-        width: 27%;
+        width: 30%;
+        margin: 0;
     }
     .s3-p2-wrap{
         height: auto;
@@ -814,7 +906,8 @@ header {
         margin-top: 30px;
     }
     .row-1-part-1{
-        margin-left: 50px;
+        margin-left: 65px;
+        margin-right: 10px;
         display: inline-block;
     }
     .img1{
@@ -823,6 +916,7 @@ header {
     }
     .row-1-part-1 > h2{
         max-width: 351px;
+        margin-left: 0px;
     }
     .row-1-part-2{
         width: 540px;
@@ -831,12 +925,12 @@ header {
     }
     .row-2{
         left: 0px;
-        margin-left: 50px;
+        margin-left: 65px;
         margin-top: 5px;
     }
     .row-2-part-1{
         margin-top: 15px;
-        margin-right: 120px;
+        margin-right: 100px;
     }
     .row-2-part-1-spl-h3{
         display: none;
@@ -848,18 +942,22 @@ header {
         left: 0;
     }
     .row-2-part-2 > .para{
-        width: 225px;
+        width: 223px;
     }
     .img1{
         display:block;
     }
     .section-2-content > p{
-        margin: 10px 150px;
+        margin: 10px 100px;
     }
     .img4{
         left: 85px;
         width: 545px;
         height: 450px;
+    }
+    .sec-3-bg-holder {
+        width: 500px;
+        height: 705px;
     }
     .sec-3-white-box{
         width: 525px;
@@ -868,6 +966,10 @@ header {
     .white-box-content{
         width: 475px;
         height: 450px;
+        padding: 35px 30px 35px 30px;
+    }
+    .white-box-content > p{
+        width: 305px;
     }
     .img5{
         right: 185px;
