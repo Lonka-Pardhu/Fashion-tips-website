@@ -621,7 +621,7 @@ header {
 
 .container {
     margin: 0 auto;
-    /* background-color: #425974d1; */
+    background-color: #425974d1;
     overflow: hidden;
 }
 
@@ -718,6 +718,61 @@ header {
     }
     .s3-p2-wrap{
         width: 100%;
+    }
+    .sec-4-wrap{
+        display: none;
+    }
+    .sec-4-img-767 {
+        position: relative;
+        display: inline-block;
+        top: 130px;
+    }
+    .img5-767 {
+        height: 510px;
+        width: 380px;
+        object-fit: cover;
+        z-index: 2;
+        transform: scale(1.2);
+        position: relative;
+        display: inline-block;
+        box-shadow: 0 0 22px 0 rgba(31,36,56,0.5);
+    }
+    .sec-4-icons-767 {
+        display: inline-block;
+        position: relative;
+        top: 250px;
+    }
+    .icon-boxes-wrap {
+        z-index: 5;
+        position: relative;
+        display: inline-block;
+        width: 320px;
+        height: 1100px;
+        text-align: center;
+        background-color: #1E2538;
+        box-shadow: 0 0 8px 0 rgba(31,36,56,1);
+    }
+    .sec-4-vertical-title-767 {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        left: 50px;
+        z-index: 1;
+        bottom: 210px;
+    }
+    .sec-4-bg-holder-767 {
+        width: 500px;
+        height: 643px;
+        position: absolute;
+        right: 0;
+        display: inline-block;
+    }
+    .sec-4-vertical-title-767 > span{
+        display: block;
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1.1;
     }
 }
 
@@ -829,9 +884,66 @@ header {
         height: auto;
         width: auto;
     }
-    .sec-4-bg-holder{
-        position:absolute;
+    .sec-4-wrap{
+        display: block;
     }
+    .sec-4-767-wrapper{
+        display: none;
+    }
+    .sec-4-part-1 {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+    }
+    .icon-boxes-wrap {
+        z-index: 5;
+        position: relative;
+        display: inline-block;
+        width: 595px;
+        height: 570px;
+        text-align: center;
+        background-color: #1E2538;
+        box-shadow: 0 0 8px 0 rgba(31,36,56,1);
+    }
+    .inner-wrap {
+        position: absolute;
+        top: 20px;
+    }
+    .sec-4-bg-holder{
+        width: 500px;
+        height: 643px;
+        position: absolute;
+        right: 0;
+        display: inline-block;
+    }
+    .sec-4-bg {
+        height: 100%;
+        background-color: #986352;
+    }
+    .sec-4-part-2 {
+        position: absolute;
+        display: inline-block;
+    }
+    .img5 {
+        height: 630px;
+        width: 460px;
+        object-fit: cover;
+        z-index: 2;
+        transform: scale(1.2);
+        position: relative;
+        display: inline-block;
+        right: 220px;
+        bottom: 115px;
+        box-shadow: 0 0 22px 0 rgba(31,36,56,0.5);
+    }
+    .sec-4-vertical-title {
+        position: absolute;
+        top: 20px;
+        right: 55px;
+        margin: 90px 50px 10px 0px;
+        text-align: center;
+    }
+
     .sec-5-wrap{
         width: 840px;
     }
@@ -971,11 +1083,67 @@ header {
     .white-box-content > p{
         width: 305px;
     }
+    .sec-4-wrap{
+        display: block;
+    }
+    .sec-4-767-wrapper{
+        display: none;
+    }
     .img5{
         right: 185px;
     }
+    .sec-4-part-1 {
+        display: inline-block;
+        position: relative;
+        bottom: 50px;
+    }
+    .icon-boxes-wrap {
+        z-index: 5;
+        position: relative;
+        display: inline-block;
+        width: 595px;
+        height: 570px;
+        text-align: center;
+        background-color: #1E2538;
+        box-shadow: 0 0 8px 0 rgba(31,36,56,1);
+    }
+    .inner-wrap {
+        position: absolute;
+        top: 20px;
+    }
+    .sec-4-bg-holder {
+        width: 500px;
+        height: 643px;
+        position: absolute;
+        right: 0;
+        display: inline-block;
+    }
+    .sec-4-bg {
+        height: 100%;
+        background-color: #986352;
+    }
+    .sec-4-part-2 {
+        position: absolute;
+        display: inline-block;
+    }
+    .img5 {
+        height: 630px;
+        width: 460px;
+        object-fit: cover;
+        z-index: 2;
+        transform: scale(1.2);
+        position: relative;
+        display: inline-block;
+        right: 185px;
+        bottom: 115px;
+        box-shadow: 0 0 22px 0 rgba(31,36,56,0.5);
+    }
     .sec-4-vertical-title{
         margin: 90px 10px 10px 0px;
+        position: absolute;
+        top: 20px;
+        right: 55px;
+        text-align: center;
     }
     .sec-5-wrap{
         width: 950px;
