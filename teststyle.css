@@ -25,12 +25,16 @@
 .menu{
     float: right;
     margin-top: 10px;
+    cursor: pointer;
 }
 .menu > div{
     height: 2.1px;
     width: 28px;
     background-color: white;
     margin: 5px;
+}
+.menu:hover > div {
+    background-color: rgb(158, 158, 158);
 }
 /* main{
     display: flex;
