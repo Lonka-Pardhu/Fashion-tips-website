@@ -1,17 +1,17 @@
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
 
-    body{
-        background-color: #1E2538 ;
-        color: white;
-        /* overflow: hidden; */
-        margin: 0;
-    }
+body{
+    background-color: #1E2538 ;
+    color: white;
+    /* overflow: hidden; */
+    margin: 0;
+}
 
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
 
-.header {
+/* .header {
     padding: 0;
     margin: 10px 0px;
 }
@@ -35,7 +35,7 @@
 }
 .menu:hover > div {
     background-color: rgb(158, 158, 158);
-}
+} */
 /* main{
     display: flex;
     flex-direction: column;
