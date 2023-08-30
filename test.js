@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-var initial = document.getElementById("DOM");
+var initial = document.getElementById("learning-js");
 initial.append(containerDiv)
 
 
