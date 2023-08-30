@@ -15,8 +15,9 @@ var menuDiv = document.createElement("div")
 menuDiv.classList.add("menu")
 innerDiv.append(menuDiv)
 
-var noOfDivs = 3;
-for (var i = 0; i < noOfDivs; i++) {
+// m = menu
+var mChildDivs = 3;
+for (var i = 0; i < mChildDivs; i++) {
     var mChild = document.createElement("div")
     menuDiv.append(mChild)
 }
@@ -68,13 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
         })
     })
 
-    //queries
+    //queries for header container
     var small = 767;
     var medium = 1024;
     var large = 1200;
 
     window.addEventListener("resize", function () {
         var windowWidth = window.innerWidth;
+
 
         if (windowWidth >= small && windowWidth < medium) {
             container.style.width = "600px"
@@ -100,15 +102,34 @@ document.addEventListener("DOMContentLoaded", function () {
         container.style.width = "1024px"
     }
 
+
+    //menu/Nav 
+
+    var sideNav = document.getElementById("side-nav")
+    var overlay = document.querySelector(".overlay")
+    var closeBtn = document.querySelector(".close-btn")
+
+    menu.addEventListener("click", openNav)
+    closeBtn.addEventListener('click', closeNav)
+    overlay.addEventListener('click', closeNav)
+
+    function openNav() {
+        sideNav.style.width = "250px"
+        overlay.style.visibility = "visible"
+        document.body.style.overflow = "hidden"
+    }
+
+    function closeNav() {
+        sideNav.style.width = "0"
+        overlay.style.visibility = "hidden"
+        document.body.style.overflow = "auto"
+    }
+
 });
+
 
 var initial = document.getElementById("learning-js");
 initial.append(containerDiv)
-
-
-
-
-
 
 
 

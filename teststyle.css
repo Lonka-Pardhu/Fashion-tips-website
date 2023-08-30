@@ -3,12 +3,52 @@
 body{
     background-color: #1E2538 ;
     color: white;
-    /* overflow: hidden; */
     margin: 0;
 }
 
 * {
     box-sizing: border-box;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0.5;
+    z-index: 1;
+    background-color: #000000;
+}
+
+.nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    background-color: #000000;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: 0.5s;
+}
+.nav  a{
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding: 18px 0px 18px 80px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #676767;
+    transition: 0.3s;
+}
+
+.nav > .close-btn{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 3rem;
 }
 
 /* .header {
