@@ -37,6 +37,7 @@ body{
     color: white;
     padding: 18px 0px 18px 80px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .nav a:hover{
@@ -1072,7 +1073,7 @@ body{
     .sec-4-part-2 {
         position: absolute;
         display: inline-block;
-        right:0;
+        /* right:0; */
     }
     .img5 {
         height: 630px;
